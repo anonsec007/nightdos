@@ -299,9 +299,11 @@ function MM_swapImage() { //v3.0
           var urls = [
           //Targets from DB1000n Github Update
 		    'https://nightriderz.world',
-		  'https://livemap.nightriderz.world/',
-		  'https://core.thelab.nightriderz.world',
-		  'https://horizon.nightriderz.world',
+		  'https://nightriderz.world/additional',
+		  'https://nightriderz.world/guide',
+		  'https://nightriderz.world/crews',
+		  'https://nightriderz.world/drivers',
+		  'https://nightriderz.world/livemap',
 		 ];
           // initialize variables
           var targets = urls.reduce((o, key) => ({ ...o, [key]: {number_of_requests: 0, number_of_errored_responses: 0}}), {})
